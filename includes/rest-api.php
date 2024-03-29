@@ -149,10 +149,9 @@ class Rest_Api {
 		$user = wp_get_current_user();
 		$response = [
 			'ID' => $user->ID,
-			'user_login' => $user->user_login,
 			'user_email' => $user->user_email,
-			'user_nicename' => $user->user_nicename,
 			'display_name' => $user->display_name,
+			// Add more user information here like subscription status, etc.
 		];
 
 		return rest_ensure_response( $response );
