@@ -1,4 +1,4 @@
-# Monocle Blocks library
+# Monocle PoC REST API
 
 This is a WordPress plugin that modifies the WP REST API to add custom endpoints for the Monocle theme. It disables the default WP REST API endpoints for non-editors/admins and adds new ones that are more specific to the Monocle project.
 
